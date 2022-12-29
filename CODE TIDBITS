@@ -1,0 +1,3 @@
+One-Hot Encode: Allows you to take a column full of different categories and break them into separate columns.
+ie(dog-breeds = dog-breeds_golden_retreiver, dog-breeds_german_shepard etc)
+dogs = pd.get_dummies(auto, columns=['dog-breeds'])
